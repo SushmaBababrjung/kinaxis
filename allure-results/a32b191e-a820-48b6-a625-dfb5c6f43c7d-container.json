@@ -1,0 +1,1 @@
+{"uuid":"a32b191e-a820-48b6-a625-dfb5c6f43c7d","name":"Scenario: Successful Login","children":["9952166b-cfb2-4c00-a0c9-f9b36b39dcfa"],"befores":[],"afters":[{"name":"org.kinaxis.steps.LoginSteps.tearDown()","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1706531546562,"stop":1706531546563}],"start":1706531544363,"stop":1706531546576}

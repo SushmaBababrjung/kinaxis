@@ -1,0 +1,3 @@
+allure:
+  enabled: true
+  results-directory: target/allure-results
