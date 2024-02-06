@@ -11,12 +11,12 @@ import java.time.Duration;
 public class KinaxisLoginPage {
 
     private final WebDriver driver;
-    private final By usernameLocator = By.xpath("//input[@id='sign-in-react__sign-in--user-id-field']");
-    private final By passwordLocator = By.xpath("//input[@id='sign-in-react__sign-in--password-field']");
-    private final By companyLocator = By.xpath("//input[@id='sign-in-react__sign-in--company-id-field']");
-    private final By loginButtonLocator = By.xpath("//button[@type='submit']");
+    private static final By usernameLocator = By.xpath("//input[@id='sign-in-react__sign-in--user-id-field']");
+    private static final By passwordLocator = By.xpath("//input[@id='sign-in-react__sign-in--password-field']");
+    private static final By companyLocator = By.xpath("//input[@id='sign-in-react__sign-in--company-id-field']");
+    private static final By loginButtonLocator = By.xpath("//button[@type='submit']");
 
-    private final By hompage_text_locator = By.xpath("//p[contains(@class, 'MuiTypography-root') and contains(@class, 'MuiTypography-alignCenter') and contains(@data-test-id, 'main-react__no-content-header')]");
+    private static final By hompage_text_locator = By.xpath("//p[contains(@class, 'MuiTypography-root') and contains(@class, 'MuiTypography-alignCenter') and contains(@data-test-id, 'main-react__no-content-header')]");
 
     public KinaxisLoginPage(WebDriver driver) {
         this.driver = driver;
